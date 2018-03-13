@@ -1,0 +1,150 @@
+
+  .header_Equipe {
+    color: #00338d;
+    font-family: 'montserratregular', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    h1 {
+      font-size: 3.5em;
+    }
+    h2 {
+      font-size: 2.5em;
+    }
+  }
+#Equipe {
+
+  .Membres {
+    width: 100%;
+
+
+      .Memb{
+          color: white;
+          text-align: center;
+          padding-bottom: 1%;
+          padding-top: 1%;
+          border: 1px solid white;
+          box-shadow: 5px 5px 10px silver;
+          width: 30%;
+          height: 130px;
+          margin-left: 3%;
+          border-radius: 2%;
+
+
+          h3 {
+            // font-family: 'montserratregular', sans-serif;
+            // font-size: 2.5em;
+            font-family: 'misoregular' sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            a {
+              color:white;
+            }
+          }
+      }
+  }
+}
+#Equipe2 {
+
+  .Operation {
+    font-family: "montserratregular", sans-serif;
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+    h4 {
+      font-size: 2.5em;
+      text-transform: uppercase;
+      color: #db4d69;
+      font-weight: bold;
+
+    }
+    p {
+      font-size: 1.2em;
+
+    }
+  }
+}
+.SectionEquipe {
+
+  display: inline-flex;
+
+  .EquipeImage{
+    a {
+      background-image: url('../img/Membres/Art_A_IMG_3021.jpg');
+    }
+
+    a:hover {
+      background-image: url('../img/Membres/Art_B_IMG_3022.jpg');
+
+    }
+  }
+
+  .EquipeTexte {
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: "montserratregular", sans-serif;
+
+    h2 {
+      font-size: 2em;
+      font-family: "montserratregular", sans-serif;
+
+
+    }
+  }
+}
+#Equipe3 {
+  .Conseil {
+    font-family: "montserratregular", sans-serif;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  h4 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #00338d;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}
+
+#Equipe4 {
+  .XMembres {
+    font-family: "montserratregular", sans-serif;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  h4 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #C4D2FC;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.2em;
+    span {
+      color: #db4d69;
+    }
+  }
+}
+
+button {
+    width: 4%;
+    height: 4%;
+    margin: 0 auto;
+    display: block;
+    background-color: #db4d69;
+    border: 1px solid blue;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 50%;
+
+      span{
+        font-size: 3em;
+      }
+    }
+    #plus {
+      display: none;
+    }
